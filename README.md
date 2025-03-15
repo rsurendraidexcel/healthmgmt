@@ -19,3 +19,17 @@ Alembic is a lightweight migration tool for SQLAlchemy. It helps us to manage th
 
 ### Project Structure
 ![project Structure](./project_structure.JPG)
+
+### database Migration and Run Apps
+![project Structure](./instruction.JPG)
+
+OR
+
+### Run Application
+```
+ uvicorn app.main:app --reload
+ or
+ 
+ fastapi dev main.py
+
+```
