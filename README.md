@@ -3,7 +3,16 @@ Sample For API Development POC Project MVC Architecture Design
 
 ## Python Libray Package install
 
-``` 
+```Create Vertual Environment
+ python -m venv myenvlib
+
+ c:>myenvlib\Script\activate
+ 
+ (myenvlib) c:>healthmgmt>
+
+```
+
+``` Instalation 
 pip install "fastapi[standard]"
 pip install SQLAlchemy
 pip install alembic
